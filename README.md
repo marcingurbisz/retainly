@@ -27,8 +27,10 @@
   - Generating new context/sentences.
 
 # TODO
-- Add an automatic translation feature using LLM
-  - Check Windsurf, Cursor, and GitHub Copilot when implementing this feature.
+- Add an automatic translation feature using LLM.
+  - As part of this, explore ways to eliminate the copy-and-paste workflow and allow Sonet 3.5 to manipulate files on my behalf. 🙂
+    - Check Windsurf, Cursor, and GitHub Copilot when implementing this feature.
+    - Consider other possible solutions.
 - Create a screen displaying a list of cards and the next recall.
 - Allow users to highlight an entire sentence, then select specific words they don't know, with LLM suggesting corresponding cards.
 - Implement a deck backup feature.
