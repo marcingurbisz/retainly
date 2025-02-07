@@ -19,9 +19,6 @@
 - Perform daily SRS reviews of created flashcards.
 - Register an additional browser action - **"Retainly Card"** - that works like in the browser plugin.
 
-## POC Architecture
-*(To be defined...)*
-
 ## Ideas for Upcoming Features
 - Creating flashcards from photos (e.g., a whiteboard or a menu in a foreign language).
 - Assisting with hard-to-remember flashcards (leeches) using LLM recommendations:
@@ -29,12 +26,14 @@
   - Adding a related or reverse-translation card.
   - Generating new context/sentences.
 
-## Competitive Analysis
-Gemini Deep Research is working... 😁  
-... finished - **Language Learning App Competitor Analysis**
-
 # TODO
-- Implement first version that adds something via share
-  - Check the code from o1
-- Register "Retainly Card" in Chrome's context menu
-  - Investigate how AnkiDroid did that
+- Add an automatic translation feature using LLM
+  - Check Windsurf, Cursor, and GitHub Copilot when implementing this feature.
+- Create a screen displaying a list of cards and the next recall.
+- Allow users to highlight an entire sentence, then select specific words they don't know, with LLM suggesting corresponding cards.
+- Implement a deck backup feature.
+  - Consider cloud synchronization, but it may be too early. A simpler backup solution should be sufficient at this stage.
+- Add text-to-speech functionality for English words.
+  - When a card is added, a text-to-speech service should generate and attach an audio file.
+- Register "Retainly Card" in Chrome's context menu instead of using the share option.
+  - Investigate how AnkiDroid implements this feature.
